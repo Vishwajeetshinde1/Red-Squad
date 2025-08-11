@@ -23,7 +23,7 @@ header nav {
   width: 90%;
   font-size: 0.8rem;
   height: 10vh; 
-  max-height: 10vh;
+  max-height: 9vh;
   margin-top: 9px;
   padding:0;
   background-color: rgba(255, 255, 255, 0.5);
@@ -45,7 +45,7 @@ header nav ul {
 }
 
 header nav ul li {
-  margin:0 0.6rem; 
+  margin: 0.2vh; 
 }
 
 header nav ul li a {
@@ -75,13 +75,39 @@ main {
   justify-content: center;
   text-align: center;
 }
-
-
+.plyers{
+ margin: 12vh 0 0 0 ;
+  font-size: 15px;
+list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 99;
+}
+.plyers1{
+  color:green ;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 1rem;
+  border: 1px solid ;
+  padding: 5px 15vh 5px 15vh;
+  backdrop-filter: blur(10px);
+}
+.plyers1 a {
+  color:black ;
+  text-decoration: none;
+  font-weight: bold;
+}
+.plyers1 a:hover{
+  color: #ff4b4b;
+}
+.plyers1:hover{
+  transform: scale(1.2);
+}
 .content{
   display: flex;
   justify-content: space-between;
- width: 80%;
- margin-top:75vh;
+ width: 90%;
+ margin-top:60vh;
 }
 .thala,  .game {
   
@@ -97,7 +123,7 @@ main {
     text-decoration: none; 
     color: #fff;
     background-color: #ff4b4b;
-    padding: 10px 20px;
+    padding: 8px 8px;
     border: 2px solid transparent;
     margin-bottom: 5px;
     border-radius:1rem ;
@@ -112,12 +138,12 @@ main {
  max-width:50px;
 }
 
-.thala a:hover .game a:hover {
+.thala a:hover, .game a:hover {
     background-color: #fff;
-    color: #ff4b4b;
-    border-color: #ff4b4b;
+   
+    border-color: #fff;
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
-    transform: scale(1.05);
+    transform: scale(1.2);
 }
 
 .footer {
