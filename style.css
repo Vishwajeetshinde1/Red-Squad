@@ -100,7 +100,7 @@ list-style: none;
 .plyers a:hover{
   color: #ff4b4b;
 }
-.plyers1:hover{
+.plyers :hover{
   transform: scale(1.2);
 }
 .content{
