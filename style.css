@@ -92,12 +92,12 @@ list-style: none;
   padding: 5px 15vh 5px 15vh;
   backdrop-filter: blur(10px);
 }
-.plyers1 a {
+.plyers a {
   color:black ;
   text-decoration: none;
   font-weight: bold;
 }
-.plyers1 a:hover{
+.plyers a:hover{
   color: #ff4b4b;
 }
 .plyers1:hover{
