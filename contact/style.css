@@ -1,0 +1,83 @@
+body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .contact-container {
+      background: rgba(255, 255, 255, 0.5);
+      padding: 2rem;
+      border-radius: 1rem;
+      box-shadow: 0px 5px 20px rgba(0,0,0,0.2);
+      width: 350px;
+      text-align: center;
+      backdrop-filter: blur(10px);
+      margin: 0 4vh 0 4vh;
+    }
+
+    .contact-container h2 {
+      margin-bottom: 1.5rem;
+      color: #333;
+    }
+
+    .contact-container label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: bold;
+      color: #444;
+      text-align: left;
+    }
+
+    .contact-container input,
+    .contact-container textarea {
+      width: 90%;
+      padding: 10px;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 0.5rem;
+      font-size: 14px;
+    }
+
+    .contact-container button {
+      width: 20vh;
+      padding: 12px;
+      border: none;
+      border-radius: 0.5rem;
+      background: #4CAF50;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .contact-container button:hover {
+      background: #45a049;
+      transform: scale(1.05);
+    }
+.contact-container from {
+
+}
+    /* Instagram button */
+    .instagram-btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px;
+      width: 20vh;
+      background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 0.5rem;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .instagram-btn:hover {
+      transform: scale(1.05);
+      opacity: 0.9;
+    }
