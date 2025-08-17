@@ -79,7 +79,7 @@ body {
   height: 50px;
   position: relative;
 margin: 50% auto;
-  left: 50%;               /* move to center */
+  left: 45%;               /* move to center */
   transform: translateX(-50%); /* adjust back by half */
   width: 90%;
   border-radius:2rem;
