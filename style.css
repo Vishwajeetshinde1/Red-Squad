@@ -105,10 +105,12 @@ list-style: none;
 }
 .content{
   display: flex;
+  gap: 50px;
   justify-content: space-between;
  width: 90%;
  margin-top:60vh;
 }
+
 .thala,  .game {
   
    display: flex;
